@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CAASPP 8th Grade Mathematics Practice Compilation - Released questions and practice items">
+    <title>CAASPP 8th Grade Mathematics - Complete Practice Compilation</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #2563eb;
+            --accent-color: #3b82f6;
+            --bg-color: #ffffff;
+            --text-color: #1f2937;
+            --border-color: #e5e7eb;
+            --highlight-bg: #eff6ff;
+            --correct-answer: #16a34a;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        .cover {
+            text-align: center;
+            padding: 60px 20px;
+            border: 3px solid var(--primary-color);
+            margin-bottom: 40px;
+            background: linear-gradient(135deg, #f0f4ff 0%, #ffffff 100%);
+            border-radius: 8px;
+        }
+
+        .cover h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .cover h2 {
+            font-size: 1.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+
+        .cover .meta {
+            margin-top: 40px;
+            font-size: 0.95rem;
+            color: #6b7280;
+            line-height: 1.8;
+        }
+
+        .cover .meta strong {
+            color: var(--primary-color);
+        }
+
+        /* Navigation */
+        .toc {
+            background: #f9fafb;
+            padding: 30px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .toc h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        .toc ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .toc li {
+            padding: 8px 0;
+            border-bottom: 1px dotted #d1d5db;
+        }
+
+        .toc li:last-child {
+            border-bottom: none;
+        }
+
+        .toc a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .toc a:hover {
+            text-decoration: underline;
+            color: var(--primary-color);
+        }
+
+        /* Section Headers */
+        h1 {
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.5rem;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: var(--accent-color);
+            font-size: 1.25rem;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        /* Content Styles */
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Question Styles */
+        .question {
+            background: #f9fafb;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            margin: 25px 0;
+        }
+
+        .question-header {
+            font-weight: 700;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .question-text {
+            margin-bottom: 15px;
+            line-height: 1.7;
+        }
+
+        .options {
+            margin-left: 20px;
+        }
+
+        .option {
+            margin: 10px 0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+
+        .option:hover {
+            background-color: #f3f4f6;
+        }
+
+        .option.correct {
+            background-color: #dcfce7;
+            border-left: 4px solid var(--correct-answer);
+            font-weight: 600;
+            color: var(--correct-answer);
+        }
+
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+
+        tr:hover {
+            background-color: #f3f4f6;
+        }
+
+        /* Formula Box */
+        .formula-box {
+            background: var(--highlight-bg);
+            border: 2px solid var(--secondary-color);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .formula-box h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        /* Answer Box */
+        .answer-box {
+            border: 2px solid var(--primary-color);
+            padding: 15px;
+            margin: 15px 0;
+            background: var(--highlight-bg);
+            font-weight: 600;
+            border-radius: 4px;
+        }
+
+        /* Performance Task */
+        .performance-task {
+            background: #f0fdf4;
+            border: 2px solid #16a34a;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .performance-task h3 {
+            color: #16a34a;
+            margin-top: 0;
+        }
+
+        /* Code/Inline Math */
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        /* Divider */
+        .section-divider {
+            text-align: center;
+            margin: 40px 0;
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-top: 2px solid var(--primary-color);
+            border-bottom: 2px solid var(--primary-color);
+            padding: 12px;
+            background: var(--highlight-bg);
+        }
+
+        /* Note Box */
+        .note {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid var(--border-color);
+            text-align: center;
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            .cover h1 {
+                font-size: 1.75rem;
+            }
+
+            .cover h2 {
+                font-size: 1.25rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            table {
+                font-size: 0.85rem;
+            }
+
+            th, td {
+                padding: 8px;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            body {
+                max-width: 100%;
+                padding: 0;
+            }
+
+            .toc {
+                page-break-after: always;
+            }
+
+            h1 {
+                page-break-after: avoid;
+            }
+
+            .question {
+                page-break-inside: avoid;
+            }
+
+            .option.correct {
+                background-color: #dcfce7 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+    <h1>CAASPP 8th Grade Mathematics</h1>
+    <h2>Complete Practice Compilation</h2>
+    <div class="meta">
+        <p><strong>Released Questions &amp; Practice Items</strong></p>
+        <p>California Assessment of Student Performance and Progress</p>
+        <br>
+        <p><strong>Includes:</strong></p>
+        <p>• 2022 Released Test Questions<br>
+        • Smarter Balanced Practice Items<br>
+        • Performance Task Examples<br>
+        • Complete Answer Key<br>
+        • Reference Formulas &amp; Conversions</p>
+        <br>
+        <p>Prepared: April 2026</p>
+    </div>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<div class="toc">
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#section1">Section 1: Test Overview &amp; Structure</a></li>
+        <li><a href="#section2">Section 2: Content Domains &amp; Standards</a></li>
+        <li><a href="#section3">Section 3: Session 1 - Multiple Choice Questions (1-25)</a></li>
+        <li><a href="#section4">Section 4: Session 2 - Constructed Response (26-35)</a></li>
+        <li><a href="#section5">Section 5: Additional Practice Items (36-45)</a></li>
+        <li><a href="#section6">Section 6: Performance Task Example</a></li>
+        <li><a href="#section7">Section 7: Reference Sheet &amp; Formulas</a></li>
+        <li><a href="#section8">Section 8: Answer Key</a></li>
+        <li><a href="#section9">Section 9: Achievement Levels &amp; Resources</a></li>
+    </ul>
+</div>
+
+<!-- SECTION 1 -->
+<h1 id="section1">Section 1: Test Overview &amp; Structure</h1>
+
+<p>The California Assessment of Student Performance and Progress (CAASPP) is a system of assessments designed to measure student mastery of California learning standards. The 8th grade mathematics test is part of the Smarter Balanced Summative Assessments (SBSA).</p>
+
+<h2>Key Features</h2>
+<ul>
+    <li>Computer-adaptive test: Questions adjust based on student responses (harder if correct, easier if incorrect)</li>
+    <li>Two parts: Computer Adaptive Test (CAT) and Performance Task (PT)</li>
+    <li>Technology-enhanced questions: Includes drag-and-drop, graph drawing, and data analysis</li>
+    <li>Calculator use: Scientific calculator allowed for grade 8 (available at calculator.smarterbalanced.org)</li>
+    <li>Reference sheet: Provided during the test with formulas and conversions</li>
+</ul>
+
+<h2>Test Structure</h2>
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Claim 1</td>
+        <td>Concepts and Procedures (Priority Cluster)</td>
+    </tr>
+    <tr>
+        <td>Claims 2 &amp; 4</td>
+        <td>Problem Solving / Modeling and Data Analysis (combined score)</td>
+    </tr>
+    <tr>
+        <td>Claim 3</td>
+        <td>Communicating Reasoning</td>
+    </tr>
+</table>
+
+<div class="note">
+    <strong>Note:</strong> The test is untimed, but most students complete it within 2-3 hours for the CAT portion and 45-60 minutes for the Performance Task.
+</div>
+
+<!-- SECTION 2 -->
+<h1 id="section2">Section 2: Content Domains &amp; Standards</h1>
+
+<table>
+    <tr>
+        <th>Domain</th>
+        <th>Key Standards</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>The Number System</td>
+        <td>8.NS.1, 8.NS.2</td>
+        <td>Know that there are numbers that are not rational, and approximate them by rational numbers; work with radicals and integer exponents</td>
+    </tr>
+    <tr>
+        <td>Expressions &amp; Equations</td>
+        <td>8.EE.1-8</td>
+        <td>Work with radicals and integer exponents; understand connections between proportional relationships, lines, and linear equations; analyze and solve linear equations and pairs of simultaneous linear equations</td>
+    </tr>
+    <tr>
+        <td>Functions</td>
+        <td>8.F.1-5</td>
+        <td>Define, evaluate, and compare functions; use functions to model relationships between quantities</td>
+    </tr>
+    <tr>
+        <td>Geometry</td>
+        <td>8.G.1-9</td>
+        <td>Understand congruence and similarity using physical models; understand and apply the Pythagorean Theorem; solve problems involving volume of cylinders, cones, and spheres</td>
+    </tr>
+    <tr>
+        <td>Statistics &amp; Probability</td>
+        <td>8.SP.1-4</td>
+        <td>Investigate patterns of association in bivariate data; construct and interpret scatter plots; use linear models</td>
+    </tr>
+</table>
+
+<!-- SECTION 3 -->
+<h1 id="section3">Section 3: Session 1 - Multiple Choice Questions</h1>
+
+<div class="section-divider">Questions 1-10</div>
+
+<div class="question">
+    <div class="question-header">Question 1</div>
+    <div class="question-text">
+        What is the solution to the equation shown below?
+        <br><br>
+        <code>2.5(x + 5) = 7.5x - 0.5</code>
+    </div>
+    <div class="options">
+        <div class="option">A. x = 2.6</div>
+        <div class="option correct">B. x = 1.1 ✓</div>
+        <div class="option">C. x = -2.6</div>
+        <div class="option">D. x = -1.1</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 2</div>
+    <div class="question-text">
+        There are two boxes of cereal in the shape of rectangular prisms on a shelf. The dimensions of each box of cereal are listed below:
+        <ul>
+            <li>Box A has a height of 25 centimeters, a length of 20 centimeters, and a width of 9 centimeters.</li>
+            <li>Box B has a height of 25 centimeters, a length of 19 centimeters, and a width of 6 centimeters.</li>
+        </ul>
+        What is the difference in volume, in cubic centimeters, between the two boxes of cereal?
+    </div>
+    <div class="options">
+        <div class="option correct">A. 1,650 ✓</div>
+        <div class="option">B. 3,900</div>
+        <div class="option">C. 4,500</div>
+        <div class="option">D. 7,350</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 3</div>
+    <div class="question-text">
+        Which equation represents the line shown on the coordinate plane below?
+    </div>
+    <div class="options">
+        <div class="option">A. y = (2/5)x + 4</div>
+        <div class="option correct">B. y = (2/3)x + 4 ✓</div>
+        <div class="option">C. y = (3/2)x + 4</div>
+        <div class="option">D. y = (5/2)x + 4</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 4</div>
+    <div class="question-text">
+        Two intersecting lines, l and t, are shown in the diagram below. If y = 115°, what is the value of x?
+    </div>
+    <div class="options">
+        <div class="option">A. 40</div>
+        <div class="option">B. 50</div>
+        <div class="option correct">C. 65 ✓</div>
+        <div class="option">D. 115</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 5</div>
+    <div class="question-text">
+        Triangle P undergoes a sequence of transformations resulting in triangle Q. Which sequence of transformations could be used to show that triangle Q is similar but not congruent to triangle P?
+    </div>
+    <div class="options">
+        <div class="option">A. a reflection followed by a translation</div>
+        <div class="option">B. a rotation followed by a reflection</div>
+        <div class="option">C. a reflection followed by a rotation</div>
+        <div class="option correct">D. a translation followed by a dilation ✓</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 6</div>
+    <div class="question-text">
+        A scatter plot is shown below. Which statement best explains why these data can or cannot be modeled using a line of best fit?
+    </div>
+    <div class="options">
+        <div class="option">A. A line would not be appropriate because there is a negative association.</div>
+        <div class="option correct">B. A line would not be appropriate because the points follow a nonlinear pattern. ✓</div>
+        <div class="option">C. A line would be appropriate because there is a positive association.</div>
+        <div class="option">D. A line would be appropriate because the points follow a nonlinear pattern.</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 7</div>
+    <div class="question-text">
+        What is the solution, if any, to the equation <code>3(x - 2) + 4 = 3x + 6</code>?
+    </div>
+    <div class="options">
+        <div class="option">A. x = 0</div>
+        <div class="option">B. x = 8</div>
+        <div class="option correct">C. There is no solution. ✓</div>
+        <div class="option">D. There are an infinite number of solutions.</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 8</div>
+    <div class="question-text">
+        There are two mechanics who work on cars. For each mechanic, the relationship between x, the number of hours worked, and y, the total cost, in dollars, is described below:
+        <ul>
+            <li>The equation <code>y = 36x</code> represents the total cost charged by Mechanic A for the number of hours worked.</li>
+            <li>The graph shown below represents the total cost charged by Mechanic B for the number of hours worked.</li>
+        </ul>
+        Based on the information, which statement is true?
+    </div>
+    <div class="options">
+        <div class="option">A. Mechanic A charges $8.00 more per hour than Mechanic B.</div>
+        <div class="option correct">B. Mechanic B charges $8.00 more per hour than Mechanic A. ✓</div>
+        <div class="option">C. Mechanic A charges $52.00 more per hour than Mechanic B.</div>
+        <div class="option">D. Mechanic B charges $52.00 more per hour than Mechanic A.</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 9</div>
+    <div class="question-text">
+        Which expression is equivalent to <code>(15³)(15⁻⁷)</code>?
+    </div>
+    <div class="options">
+        <div class="option">A. 15⁻²¹</div>
+        <div class="option">B. -15⁴</div>
+        <div class="option correct">C. 1/15⁴ ✓</div>
+        <div class="option">D. 1/15⁻⁴</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 10</div>
+    <div class="question-text">
+        Alex opened a savings account with an initial deposit of $50. Each month, he deposits the same amount of money. He uses the equation <code>t = 50 + 25m</code> to determine t, the total amount of money in his savings account in m months. What is the unit rate and what is the meaning of the unit rate?
+    </div>
+    <div class="options">
+        <div class="option correct">A. 25; the amount of money Alex deposits each month ✓</div>
+        <div class="option">B. 50; the amount of money Alex deposits each month</div>
+        <div class="option">C. 25; the amount of money Alex initially deposited</div>
+        <div class="option">D. 50; the amount of money Alex initially deposited</div>
+    </div>
+</div>
+
+<div class="section-divider">Questions 11-20</div>
+
+<div class="question">
+    <div class="question-header">Question 11</div>
+    <div class="question-text">
+        What is the solution to the equation shown below?
+        <br><br>
+        <code>-1/3(6y + 6) + 21 = 3y</code>
+    </div>
+    <div class="options">
+        <div class="option">A. y = 19/5</div>
+        <div class="option correct">B. y = 27/5 ✓</div>
+        <div class="option">C. y = -9/5</div>
+        <div class="option">D. y = -23/5</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 12</div>
+    <div class="question-text">
+        The graph of a function is shown on the coordinate plane below. Between which two values of x is the function nonlinear and increasing?
+    </div>
+    <div class="options">
+        <div class="option">A. -5 and -3</div>
+        <div class="option">B. -3 and 1</div>
+        <div class="option correct">C. 1 and 4 ✓</div>
+        <div class="option">D. 4 and 6</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 13</div>
+    <div class="question-text">
+        The dimensions of a cone are shown in the figure below. What is the approximate volume, in cubic centimeters, of the cone?
+    </div>
+    <div class="options">
+        <div class="option">A. 138</div>
+        <div class="option correct">B. 415 ✓</div>
+        <div class="option">C. 622</div>
+        <div class="option">D. 1,244</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 14</div>
+    <div class="question-text">
+        A triangle with side lengths a, b, and c is shown below. Which statement about the side lengths must be true?
+    </div>
+    <div class="options">
+        <div class="option correct">A. a + b > c ✓</div>
+        <div class="option">B. b + c < a</div>
+        <div class="option">C. a + b < c</div>
+        <div class="option">D. a + c < b</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 15</div>
+    <div class="question-text">
+        What is the equation of the line?
+    </div>
+    <div class="options">
+        <div class="option">A. y = -(4/5)x + 8</div>
+        <div class="option">B. y = (4/5)x + 10</div>
+        <div class="option">C. y = -(5/4)x + 8</div>
+        <div class="option correct">D. y = (5/4)x + 10 ✓</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 16</div>
+    <div class="question-text">
+        Cory drinks water from a bottle during a bike ride. The average amount of water, in ounces, in his water bottle can be represented by the equation <code>y = -8x + 32</code>, where y is the amount of water remaining after x hours. Based on the equation, what amount of water, in ounces, will remain in the bottle after Cory rides for 2½ hours?
+    </div>
+    <div class="options">
+        <div class="option correct">A. 8 ✓</div>
+        <div class="option">B. 12</div>
+        <div class="option">C. 20</div>
+        <div class="option">D. 32</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 17</div>
+    <div class="question-text">
+        Which expression is equivalent to <code>4⁻⁵ × 4⁸</code>?
+    </div>
+    <div class="options">
+        <div class="option">A. 4⁻²/4⁻¹</div>
+        <div class="option">B. (4³)⁻¹</div>
+        <div class="option correct">C. 4²/4⁻¹ ✓</div>
+        <div class="option">D. (4⁻¹)³</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 18</div>
+    <div class="question-text">
+        Lines l and m are parallel and intersect transversal p, as shown in the diagram below. What is the value of n?
+    </div>
+    <div class="options">
+        <div class="option">A. 6</div>
+        <div class="option">B. 10</div>
+        <div class="option">C. 20</div>
+        <div class="option correct">D. 24 ✓</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 19</div>
+    <div class="question-text">
+        Which sequence of transformations will map trapezoid RSTU onto trapezoid NMLK?
+    </div>
+    <div class="options">
+        <div class="option">A. a reflection over the y-axis, then a translation 1 unit to the right</div>
+        <div class="option">B. a reflection over the x-axis, then a translation 1 unit to the left</div>
+        <div class="option correct">C. a reflection over the y-axis, then a translation 1 unit down ✓</div>
+        <div class="option">D. a reflection over the x-axis, then a translation 1 unit up</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 20</div>
+    <div class="question-text">
+        Which set of ordered pairs represents a function?
+    </div>
+    <div class="options">
+        <div class="option">A. {(-20, 30), (-40, 0), (-40, 50)}</div>
+        <div class="option correct">B. {(-30, 0), (-30, 20), (-30, 50)}</div>
+        <div class="option">C. {(-40, 0), (20, -30), (60, -50)}</div>
+        <div class="option">D. {(-50, 0), (20, -30), (-50, 60)}</div>
+    </div>
+</div>
+
+<div class="section-divider">Questions 21-25</div>
+
+<div class="question">
+    <div class="question-header">Question 21</div>
+    <div class="question-text">
+        What value for the constant, n, will result in no solution for the equation shown below?
+        <br><br>
+        <code>n(5x + 7) = 10x + 12</code>
+    </div>
+    <div class="options">
+        <div class="option">A. 5</div>
+        <div class="option correct">B. 2 ✓</div>
+        <div class="option">C. -2</div>
+        <div class="option">D. -5</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 22</div>
+    <div class="question-text">
+        Triangle QPR is graphed on the coordinate plane below. Triangle QPR is dilated by a scale factor of 1/2 with a center of dilation at the origin, resulting in triangle Q'P'R'. What are the coordinates of vertex R'?
+    </div>
+    <div class="options">
+        <div class="option">A. (2, 5)</div>
+        <div class="option correct">B. (5, 2) ✓</div>
+        <div class="option">C. (8, 20)</div>
+        <div class="option">D. (20, 8)</div>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 23</div>
+    <div class="question-text">
+        A camper lights an oil lantern at 12 noon and lets it burn continuously. Once the lantern is lit, the lantern burns oil at a constant rate each hour. At 2 p.m., the amount of oil left in the lantern is 63 ounces. At 5 p.m., the amount of oil left in the lantern is 61.5 ounces. Based on the average rate of oil burning per hour, how much oil, in ounces, was in the lantern at 12 noon?
+    </div>
+    <div class="answer-box">
+        Answer: 64 ounces
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 24</div>
+    <div class="question-text">
+        Figure M and its congruent image, figure N, are graphed on the coordinate plane below. Describe a sequence of transformations that will take figure M onto its congruent image, figure N.
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 25</div>
+    <div class="question-text">
+        In the figure shown below, line AC is parallel to line DE with transversal line BF. Determine the values of x and y.
+    </div>
+    <div class="answer-box">
+        Answer: x = 43, y = 137
+    </div>
+</div>
+
+<!-- SECTION 4 -->
+<h1 id="section4">Section 4: Session 2 - Constructed Response Questions</h1>
+
+<div class="question">
+    <div class="question-header">Question 26</div>
+    <div class="question-text">
+        The steps a student took to solve an equation are shown below:
+        <br><br>
+        <code>(3/4)(-8x + 20) = -8(-x - 3)</code>
+        <br><br>
+        Step 1: -6x + 15 = 8x + 24<br>
+        Step 2: 15 = 2x + 24<br>
+        Step 3: -9 = 2x<br>
+        Step 4: x = -9/2
+        <br><br>
+        What error did the student make and what is the correct value of x?
+        <br><br>
+        <strong>Explain your answer.</strong>
+    </div>
+    <div class="answer-box">
+        Answer: x = 3/14<br>
+        Error in Step 2: Should be 15 = 14x + 24, not 15 = 2x + 24
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 27</div>
+    <div class="question-text">
+        Two functions are represented below. What is the difference in the rate of change between Function A and Function B? Be sure to include the rate of change of each function in your answer.
+        <br><br>
+        <strong>Explain your answer.</strong>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 28</div>
+    <div class="question-text">
+        At the beach, a child uses a container in the shape of a cylinder to build a sand castle. The child completely fills the container with sand.
+        <ul>
+            <li>The container has a height of 10 inches and a diameter of 12 inches.</li>
+            <li>There are 231 cubic inches in one gallon of sand.</li>
+        </ul>
+        What is the approximate volume of sand, in gallons, in the container? Round your answer to the nearest gallon.
+        <br><br>
+        <strong>Show your work.</strong>
+    </div>
+    <div class="answer-box">
+        Answer: 5 gallons
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 29</div>
+    <div class="question-text">
+        Solve the equation:
+        <br><br>
+        <code>3.2 - 1/2(x + 4) = 4.8x + 2 - 5.2x</code>
+        <br><br>
+        <strong>Show your work.</strong>
+    </div>
+    <div class="answer-box">
+        Answer: x = 2/5 or 0.4
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 30</div>
+    <div class="question-text">
+        Three equations are listed below:
+        <ul>
+            <li>y = x(3x + 2)</li>
+            <li>y = x/3 + 2</li>
+            <li>y = 2 - 3x</li>
+        </ul>
+        Identify one linear equation and one nonlinear equation from the list. State a reason why each equation you identified is linear or nonlinear.
+        <br><br>
+        <strong>Linear equation</strong><br>
+        State your reason.
+        <br><br>
+        <strong>Nonlinear equation</strong><br>
+        State your reason.
+    </div>
+    <div class="answer-box">
+        Linear: y = x/3 + 2 or y = 2 - 3x (forms a straight line)<br>
+        Nonlinear: y = x(3x + 2) (contains x² term)
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 31</div>
+    <div class="question-text">
+        A square, with side length s, has an area of 324 square centimeters. This equation shows the area of the square. What is the side length of the square in centimeters?
+        <br><br>
+        <code>s² = 324</code>
+    </div>
+    <div class="answer-box">
+        Answer: s = 18 cm
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 32</div>
+    <div class="question-text">
+        Six friends are going to buy a pizza. Their choices are to buy 2 medium 10-inch diameter pizzas for $7.00 each, or 1 large 14-inch diameter pizza for $15.00. Both include tax and tip. The friends agree that their best choice is the one that gives them the most pizza for their money. What is the best choice? Explain your answer.
+    </div>
+    <div class="answer-box">
+        Answer: 2 medium pizzas (157 square inches vs. 154 square inches)
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 33</div>
+    <div class="question-text">
+        Rachel says the sum of a positive number and a negative number always equals a negative number or zero.
+        <ul>
+            <li>a. Create an example that supports Rachel's claim.</li>
+            <li>b. Create an example that shows that Rachel's claim is false.</li>
+        </ul>
+    </div>
+    <div class="answer-box">
+        a. 3 + (-5) = -2 (supports)<br>
+        b. 5 + (-2) = 3 (shows false)
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 34</div>
+    <div class="question-text">
+        Draw the image of the figure after the following transformations:
+        <ul>
+            <li>a. A reflection (flip) over the x-axis</li>
+            <li>b. A horizontal translation (slide) 7 units to the left.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 35</div>
+    <div class="question-text">
+        Justin's car can travel 77½ miles with 3⅒ gallons of gas. Kim's car can travel 99 miles with 3⅕ gallons of gas. At these rates, how far can each car travel with one gallon of gas?
+    </div>
+    <div class="answer-box">
+        Justin: 25 miles per gallon<br>
+        Kim: 30 miles per gallon
+    </div>
+</div>
+
+<!-- SECTION 5 -->
+<h1 id="section5">Section 5: Additional Smarter Balanced Practice Items</h1>
+
+<div class="question">
+    <div class="question-header">Question 36</div>
+    <div class="question-text">
+        Classify the following numbers by ALL that apply: √2, √3, √5, √7
+        <ul>
+            <li>[ ] Integer</li>
+            <li>[ ] Irrational</li>
+            <li>[ ] Rational</li>
+            <li>[ ] Real</li>
+        </ul>
+    </div>
+    <div class="answer-box">
+        Answer: Irrational and Real only
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 37</div>
+    <div class="question-text">
+        Solve all problems and show all work:
+        <br><br>
+        a. -4t - 6 = 22<br>
+        b. -4r + 5 = -25<br>
+        c. -x + (-7) = 6<br>
+        d. 5g + (-3) = -12
+    </div>
+    <div class="answer-box">
+        a. t = -7<br>
+        b. r = 7.5<br>
+        c. x = -13<br>
+        d. g = -1.8
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 38</div>
+    <div class="question-text">
+        The school is 100 meters from Jason's house. The following describes his trip to school today:
+        <ul>
+            <li>He walked 50 meters towards school in 2 minutes.</li>
+            <li>He realized he left his book at home.</li>
+            <li>He turned around and walked home at the same speed.</li>
+            <li>He spent 1 minute looking for the book.</li>
+            <li>He walked all the way to school at twice his original speed.</li>
+        </ul>
+        Finish the graph so that it accurately represents Jason's trip.
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 39</div>
+    <div class="question-text">
+        Graph each value appropriately in the correct position on the number line: -4, 2.5, √9, π, -1.5
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 40</div>
+    <div class="question-text">
+        Kayla asked 10 students in her class whether they owned a dog or a cat or both. Write any number 0-9 to complete the table, given this information.
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 41</div>
+    <div class="question-text">
+        Evaluate each expression using the values given (x = 3, y = -2):
+        <br><br>
+        a. 2x + 3y<br>
+        b. x² - y³<br>
+        c. (x + y)(x - y)
+    </div>
+    <div class="answer-box">
+        a. 0<br>
+        b. 17<br>
+        c. 5
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 42</div>
+    <div class="question-text">
+        A line has a slope of -2 and passes through the point (3, 5). What is the equation of the line in slope-intercept form?
+    </div>
+    <div class="answer-box">
+        Answer: y = -2x + 11
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 43</div>
+    <div class="question-text">
+        The sum of three consecutive integers is 84. What are the three integers?
+    </div>
+    <div class="answer-box">
+        Answer: 27, 28, 29
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 44</div>
+    <div class="question-text">
+        A cylinder has a radius of 4 cm and a height of 10 cm. What is the surface area of the cylinder? (Use π = 3.14)
+    </div>
+    <div class="answer-box">
+        Answer: 351.68 cm²
+    </div>
+</div>
+
+<div class="question">
+    <div class="question-header">Question 45</div>
+    <div class="question-text">
+        The points (2, 3) and (6, 7) lie on a line. What is the slope of a line perpendicular to this line?
+    </div>
+    <div class="answer-box">
+        Answer: -1
+    </div>
+</div>
+
+<!-- SECTION 6 -->
+<h1 id="section6">Section 6: Performance Task Example</h1>
+
+<div class="performance-task">
+    <h3>Volume and Surface Area Performance Task</h3>
+
+    <p><strong>Scenario:</strong> A company manufactures three sizes of cylindrical containers for storing food. The containers have the following dimensions:</p>
+    <ul>
+        <li>Small: radius = 3 inches, height = 8 inches</li>
+        <li>Medium: radius = 4 inches, height = 10 inches</li>
+        <li>Large: radius = 6 inches, height = 12 inches</li>
+    </ul>
+
+    <div class="question" style="background: white; border: 1px solid #e5e7eb;">
+        <div class="question-header">Item 1</div>
+        <div class="question-text">
+            What is the volume of each container? Round your answer to the nearest cubic inch. Show your work or explain your answer.
+        </div>
+        <div class="answer-box">
+            Small: 226 in³<br>
+            Medium: 502 in³<br>
+            Large: 1357 in³
+        </div>
+    </div>
+
+    <div class="question" style="background: white; border: 1px solid #e5e7eb;">
+        <div class="question-header">Item 2</div>
+        <div class="question-text">
+            The company wants to create a label that wraps around the lateral surface of each container. What is the area of the label needed for each container? Round your answer to the nearest square inch. Show your work or explain your answer.
+        </div>
+        <div class="answer-box">
+            Small: 151 in²<br>
+            Medium: 251 in²<br>
+            Large: 452 in²
+        </div>
+    </div>
+
+    <div class="question" style="background: white; border: 1px solid #e5e7eb;">
+        <div class="question-header">Item 3</div>
+        <div class="question-text">
+            The company is considering creating a new container that has the same height as the large container (12 inches) but with a volume of approximately 1,000 cubic inches. What should the radius of the new container be? Round your answer to the nearest tenth of an inch. Show your work or explain your answer.
+        </div>
+        <div class="answer-box">
+            Answer: r ≈ 5.1 inches
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 7 -->
+<h1 id="section7">Section 7: Reference Sheet &amp; Formulas</h1>
+
+<div class="formula-box">
+    <h3>Conversions</h3>
+
+    <h4>Length:</h4>
+    <ul>
+        <li>1 inch = 2.54 centimeters</li>
+        <li>1 meter = 39.37 inches</li>
+        <li>1 mile = 5,280 feet</li>
+        <li>1 mile = 1,760 yards</li>
+        <li>1 mile = 1.609 kilometers</li>
+        <li>1 kilometer = 0.62 mile</li>
+    </ul>
+
+    <h4>Weight:</h4>
+    <ul>
+        <li>1 pound = 16 ounces</li>
+        <li>1 pound = 0.454 kilogram</li>
+        <li>1 kilogram = 2.2 pounds</li>
+        <li>1 ton = 2,000 pounds</li>
+    </ul>
+
+    <h4>Capacity:</h4>
+    <ul>
+        <li>1 cup = 8 fluid ounces</li>
+        <li>1 pint = 2 cups</li>
+        <li>1 quart = 2 pints</li>
+        <li>1 gallon = 4 quarts</li>
+        <li>1 gallon = 3.785 liters</li>
+        <li>1 liter = 0.264 gallon</li>
+        <li>1 liter = 1,000 cubic centimeters</li>
+    </ul>
+</div>
+
+<div class="formula-box">
+    <h3>Formulas</h3>
+    <table>
+        <tr>
+            <td><strong>Triangle Area</strong></td>
+            <td><code>A = ½bh</code></td>
+        </tr>
+        <tr>
+            <td><strong>Parallelogram Area</strong></td>
+            <td><code>A = bh</code></td>
+        </tr>
+        <tr>
+            <td><strong>Circle Area</strong></td>
+            <td><code>A = πr²</code></td>
+        </tr>
+        <tr>
+            <td><strong>Circle Circumference</strong></td>
+            <td><code>C = πd</code> or <code>C = 2πr</code></td>
+        </tr>
+        <tr>
+            <td><strong>General Prisms Volume</strong></td>
+            <td><code>V = Bh</code></td>
+        </tr>
+        <tr>
+            <td><strong>Cylinder Volume</strong></td>
+            <td><code>V = πr²h</code></td>
+        </tr>
+        <tr>
+            <td><strong>Sphere Volume</strong></td>
+            <td><code>V = (4/3)πr³</code></td>
+        </tr>
+        <tr>
+            <td><strong>Cone Volume</strong></td>
+            <td><code>V = (1/3)πr²h</code></td>
+        </tr>
+        <tr>
+            <td><strong>Pythagorean Theorem</strong></td>
+            <td><code>a² + b² = c²</code></td>
+        </tr>
+    </table>
+</div>
+
+<!-- SECTION 8 -->
+<h1 id="section8">Section 8: Answer Key</h1>
+
+<table>
+    <tr>
+        <th>Question</th>
+        <th>Answer</th>
+        <th>Standard</th>
+    </tr>
+    <tr><td>1</td><td>B (x = 1.1)</td><td>8.EE.7</td></tr>
+    <tr><td>2</td><td>A (1,650)</td><td>8.G.9</td></tr>
+    <tr><td>3</td><td>B (y = (2/3)x + 4)</td><td>8.EE.6</td></tr>
+    <tr><td>4</td><td>C (65)</td><td>8.G.5</td></tr>
+    <tr><td>5</td><td>D (translation followed by dilation)</td><td>8.G.4</td></tr>
+    <tr><td>6</td><td>B (nonlinear pattern)</td><td>8.SP.1</td></tr>
+    <tr><td>7</td><td>C (no solution)</td><td>8.EE.7a</td></tr>
+    <tr><td>8</td><td>B (Mechanic B charges $8 more)</td><td>8.EE.5</td></tr>
+    <tr><td>9</td><td>C (1/15⁴)</td><td>8.EE.1</td></tr>
+    <tr><td>10</td><td>A (25; monthly deposit)</td><td>8.F.4</td></tr>
+    <tr><td>11</td><td>B (y = 27/5)</td><td>8.EE.7</td></tr>
+    <tr><td>12</td><td>C (1 and 4)</td><td>8.F.5</td></tr>
+    <tr><td>13</td><td>B (415)</td><td>8.G.9</td></tr>
+    <tr><td>14</td><td>A (a + b > c)</td><td>8.G.7</td></tr>
+    <tr><td>15</td><td>D (y = (5/4)x + 10)</td><td>8.EE.6</td></tr>
+    <tr><td>16</td><td>A (8)</td><td>8.F.4</td></tr>
+    <tr><td>17</td><td>C (4²/4⁻¹)</td><td>8.EE.1</td></tr>
+    <tr><td>18</td><td>D (24)</td><td>8.G.5</td></tr>
+    <tr><td>19</td><td>C (reflection over y-axis, 1 unit down)</td><td>8.G.2</td></tr>
+    <tr><td>20</td><td>C (function with unique outputs)</td><td>8.F.1</td></tr>
+    <tr><td>21</td><td>B (2)</td><td>8.EE.7a</td></tr>
+    <tr><td>22</td><td>B (5, 2)</td><td>8.G.3</td></tr>
+    <tr><td>23</td><td>64 ounces</td><td>8.F.4</td></tr>
+    <tr><td>24</td><td>Various (e.g., translation, rotation)</td><td>8.G.2</td></tr>
+    <tr><td>25</td><td>x = 43, y = 137</td><td>8.G.5</td></tr>
+    <tr><td>26</td><td>x = 3/14</td><td>8.EE.7b</td></tr>
+    <tr><td>27</td><td>Various rates</td><td>8.F.2</td></tr>
+    <tr><td>28</td><td>5 gallons</td><td>8.G.9</td></tr>
+    <tr><td>29</td><td>x = 2/5</td><td>8.EE.7b</td></tr>
+    <tr><td>30</td><td>Linear and nonlinear identified</td><td>8.F.3</td></tr>
+    <tr><td>31</td><td>s = 18 cm</td><td>8.EE.2</td></tr>
+    <tr><td>32</td><td>2 medium pizzas</td><td>8.G.9</td></tr>
+    <tr><td>33</td><td>Examples provided</td><td>7.NS.1</td></tr>
+    <tr><td>34</td><td>Transformations drawn</td><td>8.G.3</td></tr>
+    <tr><td>35</td><td>Justin: 25 mpg, Kim: 30 mpg</td><td>8.EE.5</td></tr>
+    <tr><td>36</td><td>Irrational and Real</td><td>8.NS.1</td></tr>
+    <tr><td>37</td><td>t=-7, r=7.5, x=-13, g=-1.8</td><td>8.EE.7</td></tr>
+    <tr><td>38</td><td>Graph completed</td><td>8.F.5</td></tr>
+    <tr><td>39</td><td>Number line graphed</td><td>8.NS.2</td></tr>
+    <tr><td>40</td><td>Table completed</td><td>8.SP.4</td></tr>
+    <tr><td>41</td><td>0, 17, 5</td><td>8.EE.2</td></tr>
+    <tr><td>42</td><td>y = -2x + 11</td><td>8.EE.6</td></tr>
+    <tr><td>43</td><td>27, 28, 29</td><td>8.EE.7</td></tr>
+    <tr><td>44</td><td>351.68 cm²</td><td>8.G.9</td></tr>
+    <tr><td>45</td><td>-1</td><td>8.EE.6</td></tr>
+</table>
+
+<!-- SECTION 9 -->
+<h1 id="section9">Section 9: Achievement Levels &amp; Resources</h1>
+
+<h2>Achievement Level Descriptors</h2>
+
+<table>
+    <tr>
+        <th>Level</th>
+        <th>Description</th>
+        <th>Scale Score Range</th>
+    </tr>
+    <tr>
+        <td>Level 1</td>
+        <td>Limited understanding of grade-level standards</td>
+        <td>Below 2586</td>
+    </tr>
+    <tr>
+        <td>Level 2</td>
+        <td>Partial understanding; approaching standard</td>
+        <td>2586 - 2666</td>
+    </tr>
+    <tr>
+        <td>Level 3</td>
+        <td>Proficient understanding of grade-level standards</td>
+        <td>2667 - 2740</td>
+    </tr>
+    <tr>
+        <td>Level 4</td>
+        <td>Thorough understanding exceeding grade-level standards</td>
+        <td>Above 2740</td>
+    </tr>
+</table>
+
+<h2>Official Resources &amp; Practice Links</h2>
+
+<ul>
+    <li><strong>CAASPP Practice and Training Tests:</strong> http://www.caaspp.org/practice-and-training/index.html</li>
+    <li><strong>Smarter Balanced Sample Items:</strong> http://sampleitems.smarterbalanced.org/BrowseItems</li>
+    <li><strong>Grade 8 Calculator:</strong> http://calculator.smarterbalanced.org/scientificinv.html</li>
+    <li><strong>Smarter Balanced Practice Tests:</strong> https://smarterbalanced.org/our-system/students-and-families/samples/</li>
+</ul>
+
+<h2>Tips for Success</h2>
+
+<ol>
+    <li><strong>Read carefully:</strong> Understand what the question is asking before solving</li>
+    <li><strong>Show your work:</strong> For constructed response questions, partial credit is available</li>
+    <li><strong>Use tools wisely:</strong> Calculator, ruler, protractor, and reference sheet are available</li>
+    <li><strong>Check units:</strong> Make sure your answer matches the units requested</li>
+    <li><strong>Manage time:</strong> Don't spend too long on any single question</li>
+    <li><strong>Technology practice:</strong> Familiarize yourself with drag-and-drop, graphing, and equation editors</li>
+</ol>
+
+<div class="footer">
+    <p><strong>Disclaimer:</strong> This compilation is for educational preparation purposes. All questions are from publicly released sources including the Smarter Balanced Assessment Consortium and New York State Education Department released items from 2022.</p>
+    <br>
+    <p>Prepared: April 2026</p>
+</div>
+
+</body>
+</html>
